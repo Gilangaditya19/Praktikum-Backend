@@ -58,19 +58,19 @@ class Animal
 
 # membuat object
 # kirimkan data hewan (array) ke constructor
-$animal = new Animal(["Sapi", "Kucing", "Panda"]);
+$animal = new Animal(["Kelelawar", "Singa", "Jerapah"]);
 
 echo "Index - Menampilkan seluruh hewan <br>";
 $animal->index();
 echo "<br>";
 
 echo "Store - Menambahkan hewan baru <br>";
-$animal->store('burung');
+$animal->store('Ikan');
 $animal->index();
 echo "<br>";
 
 echo "Update - Mengupdate hewan <br>";
-$animal->update(0, 'Kucing Anggora');
+$animal->update(0, 'Kucing Persia');
 $animal->index();
 echo "<br>";
 
